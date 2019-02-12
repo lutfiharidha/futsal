@@ -1,0 +1,13 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Testimonial extends Model
+{
+    public $timestamps = false;
+    protected $fillable = [
+        'nama', 'image','description','status'
+    ];
+}
